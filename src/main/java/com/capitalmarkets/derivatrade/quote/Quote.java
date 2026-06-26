@@ -1,7 +1,9 @@
-package com.capitalmarkets.derivatrade.entity;
+package com.capitalmarkets.derivatrade.quote;
 
 
-import com.capitalmarkets.derivatrade.enums.QuoteStatus;
+import com.capitalmarkets.derivatrade.common.enums.QuoteStatus;
+import com.capitalmarkets.derivatrade.instrument.Instrument;
+import com.capitalmarkets.derivatrade.marketmaker.MarketMaker;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 import lombok.*;

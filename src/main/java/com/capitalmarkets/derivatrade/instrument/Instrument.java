@@ -1,6 +1,6 @@
-package com.capitalmarkets.derivatrade.entity;
+package com.capitalmarkets.derivatrade.instrument;
 
-import com.capitalmarkets.derivatrade.enums.InstrumentType;
+import com.capitalmarkets.derivatrade.common.enums.InstrumentType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;

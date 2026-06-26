@@ -1,4 +1,4 @@
-package com.capitalmarkets.derivatrade.enums;
+package com.capitalmarkets.derivatrade.common.enums;
 
 public enum InstrumentType {
 

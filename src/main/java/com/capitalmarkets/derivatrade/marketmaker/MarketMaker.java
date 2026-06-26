@@ -1,4 +1,4 @@
-package com.capitalmarkets.derivatrade.entity;
+package com.capitalmarkets.derivatrade.marketmaker;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
