@@ -1,6 +1,7 @@
 package com.capitalmarkets.derivatrade.quote;
 
 
+import com.capitalmarkets.derivatrade.common.audit.BaseEntity;
 import com.capitalmarkets.derivatrade.common.enums.QuoteStatus;
 import com.capitalmarkets.derivatrade.instrument.Instrument;
 import com.capitalmarkets.derivatrade.marketmaker.MarketMaker;
@@ -19,7 +20,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Quote {
+public class Quote extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)

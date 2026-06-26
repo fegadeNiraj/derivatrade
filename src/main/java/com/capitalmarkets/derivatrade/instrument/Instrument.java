@@ -1,5 +1,6 @@
 package com.capitalmarkets.derivatrade.instrument;
 
+import com.capitalmarkets.derivatrade.common.audit.BaseEntity;
 import com.capitalmarkets.derivatrade.common.enums.InstrumentType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
@@ -15,7 +16,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Instrument {
+public class Instrument extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;

@@ -1,5 +1,6 @@
 package com.capitalmarkets.derivatrade.marketmaker;
 
+import com.capitalmarkets.derivatrade.common.audit.BaseEntity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
@@ -13,7 +14,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class MarketMaker {
+public class MarketMaker extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
